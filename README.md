@@ -18,8 +18,8 @@ Create Intel xorg config at `/etc/X11/xorg.conf.d/20-intel.conf` with the follow
 Create display config at `/etc/X11/xorg.conf.d/30-display.conf` with the following:
 
     Section "Monitor"
-      Identifier    "DPI1"
-      Option        "Rotate"                 "right"
+      Identifier    "DSI-1"
+      Option        "Rotate"                 "Right"
     EndSection
 
 Create touchscreen config at `/etc/X11/xorg.conf.d/99-touchscreen.conf` with the following:
