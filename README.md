@@ -1,6 +1,7 @@
 # GPD Pocket 3 Xorg Fixes
 
 
+lspci -nnk | grep -A 3 VGA | grep -E "VGA|driver"
 
 
 ### Create Pocket 2 Xorg configs
